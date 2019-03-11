@@ -1,5 +1,6 @@
+// Глобальные константы приложения
 module.exports = {
-  appPort: 3000,
   mongoUri: 'mongodb://localhost:27017/test',
-  jwtSecret: "jwtSecret",
+  appPort: 3000,
+  // jwtSecret: "jwtSecret",
 };

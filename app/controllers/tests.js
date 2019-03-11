@@ -16,16 +16,22 @@ const create = (req, res) => {
 };
 
 const update = (req, res) => {
-  Test.findByIdAndUpdate({ id: req.params.id }, req.body)
+  Test.findByIdAndUpdate({
+      id: req.params.id,
+    }, req.body)
     .exec()
     .then(test => res.json(test))
     .catch(err => res.status(500).json(err));
 };
 
 const remove = (req, res) => {
-  Test.deleteOne({ id: req.params.id })
+  Test.deleteOne({
+      id: req.params.id,
+    })
     .exec()
-    .then(() => res.json({ success: true }))
+    .then(() => res.json({
+      success: true,
+    }))
     .catch(err => res.status(500).json(err));
 };
 

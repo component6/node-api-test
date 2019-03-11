@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const bCrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
-const { jwtSecret } = require('../../config/app');
-
+// const bCrypt = require('bcrypt');
+// const jwt = require('jsonwebtoken');
+// const { jwtSecret } = require('../../config/app');
+/*
 const User = mongoose.model('User');
 
 const singIn = (req, res) => {
@@ -27,3 +27,4 @@ const singIn = (req, res) => {
 module.exports = {
   signIn,
 }
+*/

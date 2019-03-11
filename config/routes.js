@@ -8,5 +8,5 @@ module.exports = (app) => {
   app.put('/tests/:id', tests.update);
   app.delete('/tests/:id', tests.remove);
   // auth
-  app.post('/signin', auth.signIn);
+  // app.post('/signin', auth.signIn);
 };
